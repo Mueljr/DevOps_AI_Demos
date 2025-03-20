@@ -32,3 +32,14 @@ This project provides a local ChatGPT-like experience using open-source AI model
 Folder contains a docker-compose.yml file to run command at any other time - as an alternative to the docker run command.
 
 Easier to manage and reuse. You can add more services without modifying the original. Likewise, in case there's a need to restart or rerun model at any point in time easily without typing one long line (*docker run...*)
+
+
+# ollama-stabiliser file
+
+This script helps stabilize and retry downloads of Ollama models in cases where:
+
+1. Ollama's servers are experiencing slow or unstable connections.
+  
+2. Your internet connection is fluctuating, causing failed downloads.
+
+_Specify your model before executing script_
