@@ -12,7 +12,9 @@ This project provides a local ChatGPT-like experience using open-source AI model
 # MAJOR STEPS
 
 1️. **Install Ollama**– Set up the LLM runtime - Linux, Windows, MacOS
+
 2️. **Download a Model** – Choose & pull an AI model locally
+
 3️. **Run Open WebUI** – Start a chat-friendly interface using Docker
 
 # PROJECT USE CASES
